@@ -2,7 +2,6 @@
 """
  Author: James A. Shackleford
    Date: Oct. 16th, 2015
-   Finished by Chris Kasper
 
    A simple implementation of Conway's Game of Life
 """
