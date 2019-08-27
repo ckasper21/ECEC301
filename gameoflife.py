@@ -32,7 +32,7 @@ def generate_world(opts):
         world=[[0 for x in range(opts.rows)] for y in range(opts.cols)]
     elif opts.world_type=='random':
         world=[[0 for x in range(opts.rows)] for y in range(opts.cols)]
-        for i in range(0,opts.rows):
+        for i in range(0,opts.cols):
             for j in range(0,opts.rows):
                 randnum=random()
                 if randnum < 0.10:
